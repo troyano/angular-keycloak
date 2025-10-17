@@ -4,8 +4,8 @@ export const environment = {
   env: 'local',
   url_backend_ai: 'http://localhost:8000/',
   keycloak: {
-    url: 'https://keycloak.ediaimx.softwarecumbre.com:8443',
-    realm: 'edi-project',
+    url: 'http://localhost:8443',
+    realm: 'project',
     clientId: 'front-angular',
     responseMode: 'fragment',
     responseType: 'code',
